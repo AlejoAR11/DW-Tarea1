@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+
+
+    <h2>Do while</h2>
+
+    <label for="nMenor">Ingrese el número menor:</label>
+    <input type="number" id="nMenor" min="1" value="1"><br>
+
+    <label for="nMayor">Ingrese el número mayor:</label>
+    <input type="number" id="nMayor" min="1" value="10"><br>
+
+    <button onclick="buscarPrimos()">Buscar primos</button>
+
+    <div id="primos"></div>
+
+
+    <br>
+    <h2>For</h2>
+    <ul>
+        <li>
+            Inverso | Arreglo
+        </li>
+        <br>
+        <label for="number"> ingrese una cantidad para determinar los pares</label>
+        <input type="number" id="cantidad" min="1" value="1"><br>
+        <button onclick="filtrarnums()">Mostrar pares</button><br>
+        <div id="pares"><br></div>
+
+
+
+        <br>
+
+
+        <li>
+            Break | Anidado
+        </li><br>
+
+        <label for="numero">Ingrese un número:</label>
+        <input type="number" id="numero" min="1" value="1">
+        <button onclick="generarPatron()">Generar Patrón</button>
+        <div id="patron"></div>
+
+    </ul>
+    <h2>while</h2>
+
+    <label for="numero">Ingrese un número:</label>
+    <input type="number" id="numero">
+    <button onclick="calcularSuma()">Calcular Suma</button>
+    <div id="suma"></div>
+
+    <br>
+    <a href="\Tarea1\Home.html">
+
+        <button>Ir al inicio</button>
+    </a>
+
+    <script src="Loops.js"></script>
+</body>
+
+</html>
